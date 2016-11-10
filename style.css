@@ -1,0 +1,278 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*header*/
+
+header{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 1056px;
+	background-image: url(photo.png);
+	background-size: cover;
+}
+.header{
+	display: flex;
+}
+
+.freelancer{
+	margin-left: 220px;
+	background-color: rgb( 250, 92, 101 );
+    width: 140px;
+    height: 75px;
+    border-bottom-left-radius:10px; /*левый нижний угол*/
+    border-bottom-right-radius:10px; 
+}
+
+.logo{
+	font-size: 20px;
+	color: #ffffff;
+	font-family: 'Domine', serif;
+	padding: 45px 15px;
+}
+.blackspan{
+	color: black;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	padding-left: 300px;
+}
+.nav a{
+	color: #314a5b;
+	text-transform: uppercase; 
+	padding: 30px;
+	padding-right: 40px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	transition: color 0.4s, font-size 0.3s;
+
+}
+nav a:hover{
+	color: rgb( 250, 92, 101 );
+	font-size: 16px;
+}
+.icons{
+	padding: 23px;
+	padding-right: 15px;
+}
+
+.headerslogan{
+	display: flex;
+	flex-direction: column;
+	width: 480px;
+	height: 400px;
+	padding-top: 250px;
+	padding-left: 220px;
+}
+
+div>h1.slogan{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	color: #314a5b;
+	line-height: 53px;
+}
+.redspan{
+	color: rgb( 250, 92, 101 );
+}
+.headerslogan p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #314a5b;
+    padding-top: 30px;
+
+}
+.readmore{
+	width: 170px;
+	height: 65px;
+	margin-top: 45px;
+	background-color: rgb( 250, 92, 101 );
+	border-radius: 10px;
+	border: none;
+	font-size: 15px;
+	font-family:'Montserrat', sans-serif;
+	text-transform: uppercase; 
+	color: white;
+	transition: width 0.5s, height 0.5s, background-color 0.75s;
+}
+.readmore:hover{
+	background-color: #314a5b;
+	width: 175px;
+	height: 70px;
+}
+
+/*main*/
+
+.snippets{
+	display: flex;
+	padding: 85px 220px;
+}
+.firstsnippers{
+	display: flex;
+	flex-direction: column;
+	padding-right: 64px;
+}
+
+.snippets h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	line-height: 26px;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+.snippets p{
+	padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	color: #9aa0ab;
+}
+.more{
+	width: 90px; 
+	height: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #fa5c65;
+	text-transform: uppercase;
+	padding-top: 35px;
+	text-decoration: none;
+	transition: font-size 0.2s;
+}
+.more:after{
+	content: url(arrow.png); 
+	padding-left: 10px;
+	width: 20px;
+}
+
+.more:hover{
+	font-size: 16px;
+}
+/*Portfolio*/
+
+.portfolio{
+	display: flex;
+}
+
+.macbook{
+	padding-left: 219px;
+}
+.divportfolio{
+	padding-left: 83px;
+	width: 380px;
+}
+.divportfolio h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+
+.firstp{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #314a5b;
+	padding-top: 15px;
+}
+.secp, .thirdp {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #9aa0ab;
+	padding-top: 30px;
+}
+.divmore{
+	padding-top: 45px;
+}
+
+/*Our team*/
+
+.ourteam{
+	display: flex;
+	flex-direction: column;
+	padding-left: 219px;
+	padding-top: 105px;
+}
+
+.ourteam h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+.ourteam p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #9aa0ab;
+	padding-top: 15px;
+}
+
+.teamname{
+	display: flex;
+	flex-direction: row;
+	padding-left: 203px;
+	padding-top: 42px;
+}
+.face{
+	border-radius: 50%;
+	box-shadow: 0 5px 7px rgba(0, 0, 0 , 0.4);
+}
+
+
+.names{
+	width: 150px;
+	height: 90px;
+	padding-left: 20px;
+	padding-right: 35px;
+}
+
+.names h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+.job{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: rgb( 250, 92, 101 );
+	font-weight: bold;
+	padding-top: 12px;
+}
+
+.hobbi{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+    color: #9aa0ab;
+    padding-top: 15px;
+}
+
+.teammore{
+	display: flex;
+	padding-left: 1098px;
+}
+.divider{
+	padding-left: 219px;
+	padding-top: 55px;
+}
+
+/*Footer*/
+
+.socialicons{
+	display: flex;
+	padding-top: 33px;
+	padding-left: 223px;
+	padding-bottom: 40px;
+	
+}
+.socialicons img{
+	padding-right: 22px;
+}
+.socialicons p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	padding-left: 500px;
+	color: #9aa0ab;
+}
